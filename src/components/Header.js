@@ -12,9 +12,10 @@ const Header = props => (
                     <ul className="nav navbar-nav">
                         <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown <span className="caret"></span></a>
                             <ul className="dropdown-menu" role="menu">
-                                <li role="presentation"><a href="#">First Item</a></li>
-                                <li role="presentation"><a href="#">Second Item</a></li>
-                                <li role="presentation"><a href="#">Third Item</a></li>
+                                <li role="presentation"><a href="../Quarterback">Quarterbacks</a></li>
+                                <li role="presentation"><a href="../Runningback">Runningbacks</a></li>
+                                <li role="presentation"><a href="../TightEnd">Tight Ends</a></li>
+                                <li role="presentation"><a href="../WideReciever">Wide Recievers</a></li>
                             </ul>
                         </li>
                     </ul>
