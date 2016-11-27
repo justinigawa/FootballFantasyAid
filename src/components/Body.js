@@ -6,7 +6,7 @@ const Body = props => (
         <div className="row">
             <div className="col-md-8 col-md-offset-2">
                 <div className="embed-responsive embed-responsive-16by9">
-                    <div>body</div>
+        
                 </div>
             </div>
         </div>
