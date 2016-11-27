@@ -1,7 +1,7 @@
 import React, {Component} from "react"
 import {Link} from "react-router"
 
-const Header = props => (
+const NavBar = props => (
     <div className="header-dark">
         <nav className="navbar navbar-default navigation-clean-search">
             <div className="container">
@@ -17,4 +17,4 @@ const Header = props => (
     </div>
 )
 
-export default Header
+export default NavBar

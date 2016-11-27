@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import Header from '../components/Header'
+import NavBar from '../components/NavBar'
 import Body from '../components/Body'
 import Footer from '../components/Footer'
 
@@ -8,8 +8,8 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <div className="header">
-                    <div><Header /></div>
+                <div className="navbar">
+                    <div><NavBar /></div>
                 </div>
                 <div className="body">
                     <div><Body /></div>

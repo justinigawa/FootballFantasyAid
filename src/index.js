@@ -4,10 +4,8 @@ import App from './App';
 import Home from './containers/Home';
 import Login from './containers/Login';
 import Signup from './containers/Signup';
-import Quarterback from './containers/Quarterback';
-import Runningback from './containers/Runningback';
-import TightEnd from './containers/TightEnd';
-import WideReciever from './containers/WideReciever';
+import Player from './containers/Player';
+import Results from './containers/Results';
 import './index.css';
 
 ReactDOM.render(
