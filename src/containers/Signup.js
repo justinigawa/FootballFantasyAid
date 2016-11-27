@@ -13,6 +13,10 @@ class Signup extends Component {
                     <form className="create-update-form">
 
                         <div className="form-group">
+                            <label for="em">User Name:</label>
+                            <input type="text" id="em" name="username" placeholder="Username"/></div>
+
+                        <div className="form-group">
                             <label for="em">Email:</label>
                             <input type="text" id="em" name="email" placeholder="Email"/></div>
 
