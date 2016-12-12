@@ -8,15 +8,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <div className="navbar">
-                    <div><NavBar /></div>
-                </div>
-                <div className="body">
-                    <div><Body /></div>
-                </div>
-                <div className="footer">
-                    <div><Footer /></div>
-                </div>
+                <Body />
             </div>
         )
     }
