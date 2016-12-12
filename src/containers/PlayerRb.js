@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar'
 import Body from '../components/Body'
 import Footer from '../components/Footer'
 
-class Player extends Component {
+class PlayerRb extends Component {
 
     render() {
         return (
@@ -11,10 +11,10 @@ class Player extends Component {
                 <div className="body">
                     <div><Body /></div>
                 </div>
-                <p>Players Page</p>
+                <p>PlayerRb Page</p>
             </div>
         )
     }
 }
 
-export default Player
+export default PlayerRb

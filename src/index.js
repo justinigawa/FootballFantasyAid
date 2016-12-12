@@ -4,7 +4,10 @@ import App from './App';
 import Home from './containers/Home';
 import Login from './containers/Login';
 import Signup from './containers/Signup';
-import Player from './containers/Player';
+import PlayerQb from './containers/PlayerQb';
+import PlayerRb from './containers/PlayerRb';
+import PlayerTE from './containers/PlayerTE';
+import PlayerWR from './containers/PlayerWR';
 import Results from './containers/Results';
 import './index.css';
 

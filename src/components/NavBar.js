@@ -8,8 +8,8 @@ const NavBar = props => (
                 <div className="navbar-header"><a className="navbar-brand navbar-link" href="/">Fantasy Aid</a></div>
                 <div className="collapse navbar-collapse" id="navcol-1">
                     <div className="navbar-text navbar-right">
-                        <a className="navbar-link-li" href="../Player">Log In</a>
-                        <a className="btn btn-default action-button" role="button" href="../Signup">Sign Up</a>
+                        <a className="navbar-link-li" href="../PlayerQb">Log In</a>
+                        <a className="btn btn-default action-button" role="button" href="../PlayerRb">Sign Up</a>
                     </div>
                 </div>
             </div>
