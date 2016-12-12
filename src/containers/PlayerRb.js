@@ -1,5 +1,6 @@
 import React, {Component} from "react"
 import NavBar from '../components/NavBar'
+import Runningback from '../components/Runningback'
 import Body from '../components/Body'
 import Footer from '../components/Footer'
 
@@ -9,9 +10,9 @@ class PlayerRb extends Component {
         return (
             <div>
                 <div className="body">
+                    <div><Runningback /></div>
                     <div><Body /></div>
                 </div>
-                <p>PlayerRb Page</p>
             </div>
         )
     }

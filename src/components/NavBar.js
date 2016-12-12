@@ -8,8 +8,10 @@ const NavBar = props => (
                 <div className="navbar-header"><a className="navbar-brand navbar-link" href="/">Fantasy Aid</a></div>
                 <div className="collapse navbar-collapse" id="navcol-1">
                     <div className="navbar-text navbar-right">
-                        <a className="navbar-link-li" href="../PlayerQb">Log In</a>
-                        <a className="btn btn-default action-button" role="button" href="../PlayerRb">Sign Up</a>
+                        <a className="btn btn-default action-button" role="button" href="../PlayerQb">Quarterback</a>
+                        <a className="btn btn-default action-button" role="button" href="../PlayerRb">Running Back</a>
+                        <a className="btn btn-default action-button" role="button" href="../PlayerTE">Tight End</a>
+                        <a className="btn btn-default action-button" role="button" href="../PlayerWR">Wide Reciever</a>
                     </div>
                 </div>
             </div>
