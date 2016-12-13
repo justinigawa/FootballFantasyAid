@@ -50,7 +50,7 @@ class Giphy extends Component {
                 </div>
             )
         }
-    }
+}
 
 
 export default Giphy

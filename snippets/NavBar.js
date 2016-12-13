@@ -11,21 +11,30 @@ const NavBar = props => (
             </div>
 
             <div className="nav navbar-nav navbar-right">
+
                 <Link to="/">
                     <p>Home</p>
                 </Link>
+
                 <Link to="/Giphy">
                     <p>Giphy</p>
                 </Link>
+
                 <form onSubmit={props.handleSubmit} className="navbar-form navbar-left">
 
                     {props.show
-                        ? <div className="form-group"><input onChange={props.handleChange} className="form-control" placeholder="Search" value={props.search}/>
-                                <button type="submit" className="btn btn-default">Submit</button>
+                        ? <div className="form-group">
+                                <input onChange={props.handleChange} 
+                                className="form-control" 
+                                placeholder="Search" 
+                                value={props.search}/>
+                                <button type="submit" className="btn btn-default">
+                                Submit</button>
                             </div>
                         : null}
 
                 </form>
+
             </div>
         </div>
     </nav>
