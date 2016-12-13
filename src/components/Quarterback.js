@@ -35,7 +35,7 @@ const Quarterback = props => (
                 </div>
             </div>
             <div className="row">
-                <div className="seachbtn">
+                <div className="col-md-offset-4">
                     <button type="submit" className="btn btn-default">Submit</button>
                 </div>
             </div>
