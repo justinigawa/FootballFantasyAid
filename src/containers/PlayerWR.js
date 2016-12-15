@@ -1,7 +1,6 @@
 import React, {Component} from "react"
 import NavBar from '../components/NavBar'
 import WideReciever from '../components/WideReciever'
-import PlayerResults from '../components/PlayerResults'
 import Body from '../components/Body'
 import Footer from '../components/Footer'
 
@@ -12,7 +11,7 @@ class PlayerWR extends Component {
             <div>
                 <div className="body">
                     <div><WideReciever /></div>
-                    <hr/> {/* <div><PlayerResults /></div> */}
+                    <hr/> 
                     <div className="searchForms">
                         <div className="container">
                             <div className="row">
