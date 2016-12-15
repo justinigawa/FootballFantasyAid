@@ -23,7 +23,7 @@ class Giphy extends Component {
         }
 
         getThatShit(giphy){
-            const url = `http://api.giphy.com/v1/gifs/search?q=${giphy}&api_key=dc6zaTOxFJmzC`;
+            const url = `localhost:3001/nfl`;
             console.log(url);
             axios.get(url)
             .then( res => {
