@@ -36,7 +36,7 @@ const Runningback = props => (
             </div>
             <div className="row">
                 <div className="seachbtn">
-                    <a className="btn btn-default action-button" role="button" href="../Results">Compare Running Backs</a>
+                    <button type="submit" className="btn btn-default">Compare Running Backs</button>
                 </div>
             </div>
         </div>

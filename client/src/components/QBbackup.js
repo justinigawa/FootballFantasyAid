@@ -36,7 +36,7 @@ const Quarterback = props => (
             </div>
             <div className="row">
                 <div className="seachbtn">
-                    <a className="btn btn-default action-button" role="button" href="../Results">Compare Quarterbacks</a>
+                    <a className="btn btn-default action-button" role="button" href="../QbResults">Compare Quarterbacks</a>
                 </div>
             </div>
         </div>
