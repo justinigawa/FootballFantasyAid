@@ -36,7 +36,7 @@ const TightEnd = props => (
             </div>
             <div className="row">
                 <div className="seachbtn">
-                    <a className="btn btn-default action-button" role="button" href="../Results">Compare Tight Ends</a>
+                    <button type="submit" className="btn btn-default">Compare Tight Ends</button>
                 </div>
             </div>
         </div>

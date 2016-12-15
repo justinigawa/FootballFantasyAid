@@ -6,7 +6,6 @@ import PlayerQb from './containers/PlayerQb';
 import PlayerRb from './containers/PlayerRb';
 import PlayerTE from './containers/PlayerTE';
 import PlayerWR from './containers/PlayerWR';
-import Results from './containers/Results';
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 
@@ -27,7 +26,6 @@ class App extends Component {
                 <Route path='/PlayerRb' component={PlayerRb}/>
                 <Route path='/PlayerTE' component={PlayerTE}/>
                 <Route path='/PlayerWR' component={PlayerWR}/>
-                <Route path='/Results' component={Results}/>
             </Router>
             <Footer />
         </div>
