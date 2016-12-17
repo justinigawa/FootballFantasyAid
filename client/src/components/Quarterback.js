@@ -1,23 +1,26 @@
 import React, {Component} from "react"
 import {Link} from "react-router"
 import axios from 'axios'
+import Sibling from './SiblingQuarterback.js'
+import Child from './ChildQuarterback.js'
+
+var arr = [];
 
 var Quarterback = React.createClass({
     getInitialState: function() {
-        return {
-            mood: 'good'
-        };
+        return { name: 'Tom Brady' }
     },
 
-    handleChange: function(event) {
-        event.preventDefault()
-        this.setState({search: event.target.value})
+    changeName: function(newName) {
+        this.setState({name: newName});
     },
 
     handleSubmit: function(event) {
         event.preventDefault()
-        this.getThatShit(this.state.search);
+        this.getThatShit(this.state.name)
         this.setState({search: ""})
+        this.setState({trueName: this.state.name})
+        console.log(this.getThatShit(this.state.name))
     },
 
     getThatShit: function(query) {
@@ -26,8 +29,7 @@ var Quarterback = React.createClass({
         .then(function(res) {
             for (var i = 0; i < res.data.players.length; i++) {
                 if (res.data.players[i].name == query) {
-                    var teamName = res.data.players[i].teamAbbr
-                    this.setState({ name: teamName })
+                    console.log(res.data.players[i].name)
                 }
             }
         })
@@ -49,9 +51,8 @@ var Quarterback = React.createClass({
                                 <div className="panel-body text-center">
                                     <form>
                                         <div className="form-group">
-                                            <input onChange={this.handleChange} type="text" className="form-control" id="text" placeholder="Search Quarterback" value={this.search} required />
-                                            <button onClick={this.handleSubmit}>Submit</button>
-                                            <h1>this is {this.state.name}</h1>
+                                            <Child onChange={this.changeName}/>
+                                            <Sibling name={this.state.trueName} />
                                         </div>
                                     </form>
                                 </div>
