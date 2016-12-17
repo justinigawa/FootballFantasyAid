@@ -52,5 +52,7 @@ class Giphy extends Component {
         }
     }
 
+    // <input onChange={props.handleChange} type="text" className="form-control" id="text" placeholder="Search Quarterback" value={props.search} required />
+
 
 export default Giphy
