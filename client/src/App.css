@@ -9,11 +9,12 @@
     color: black;
 }
 
-.App-intro {
-    font-size: large;
-}
-
 table, th, td {
     border: 1px solid black;
     padding: 10px;
+}
+
+h1 {
+    font-weight: 900;
+    
 }

@@ -16,7 +16,7 @@ class App extends Component {
             <div>
             <div className="App">
               <div className="App-header">
-                <h2>NFL FOOTBALL FANTASY AID</h2>
+                <h1>NFL FOOTBALL FANTASY AID</h1>
               </div>
             </div>
             <NavBar />
