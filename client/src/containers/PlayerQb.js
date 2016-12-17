@@ -207,28 +207,23 @@ var PlayerQb = React.createClass({
 
                 <div className="row">
 
-                    <div className="jumbotron">
-                        <h2 className="text-center">Address Finder!</h2>
-                        <p className="text-center"><em>Enter a landmark to search for its exact address (ex: "Eiffel Tower").</em></p>
-                    </div>
-
                     <div className="col-md-12">
-                    
+
                         <Quarterback setTerm={this.setTerm}/>
 
                     </div>
 
                     <div className="col-md-12">
-                
-                        <Results name={this.state.results} 
-                                 attempts={this.state.results2} 
+
+                        <Results name={this.state.results}
+                                 attempts={this.state.results2}
                                  completions={this.state.results3}
                                  pyards={this.state.results4}
                                  ptouchdowns={this.state.results5}
                                  interceptions={this.state.results6}
                                  proPts={this.state.results7}
-                                 name2={this.state.results11} 
-                                 attempts2={this.state.results12} 
+                                 name2={this.state.results11}
+                                 attempts2={this.state.results12}
                                  completions2={this.state.results13}
                                  pyards2={this.state.results14}
                                  ptouchdowns2={this.state.results15}
