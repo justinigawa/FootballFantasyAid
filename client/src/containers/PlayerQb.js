@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import NavBar from '../components/NavBar'
 import Quarterback from '../components/Quarterback'
+import QuarterbackRight from '../components/QuarterbackRight'
 import Body from '../components/Body'
 import Footer from '../components/Footer'
 import helpers from '../../utils/helpers.js'
@@ -234,11 +235,8 @@ var PlayerQb = React.createClass({
                                  interceptions2={this.state.results16}
                                  proPts2={this.state.results17}
                                   />
-
                     </div>
-
                 </div>
-
             </div>
         )
     }

@@ -1,11 +1,11 @@
 import React, {Component} from "react"
 import {Link} from "react-router"
 import axios from 'axios'
-import Child from './ChildTE.js'
+import ChildRight from './ChildTERight.js'
 
 var arr = [];
 
-var TightEnd = React.createClass({
+var TightEndRight = React.createClass({
     getInitialState: function() {
         return {name: 'Tom Brady'}
     },
@@ -48,7 +48,7 @@ var TightEnd = React.createClass({
                                     <div className="panel-body text-center">
                                         <form>
                                             <div className="form-group">
-                                                <Child onChange={this.changeName}/>
+                                                <ChildRight onChange={this.changeName}/>
                                                 <button onClick={this.handleSubmit}>Submit</button>
                                             </div>
                                         </form>
@@ -96,4 +96,4 @@ var TightEnd = React.createClass({
     }
 });
 
-export default TightEnd
+export default TightEndRight

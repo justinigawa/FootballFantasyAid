@@ -6,7 +6,6 @@ import PlayerQb from './containers/PlayerQb';
 import PlayerRb from './containers/PlayerRb';
 import PlayerTE from './containers/PlayerTE';
 import PlayerWR from './containers/PlayerWR';
-import './index.css';
 
 ReactDOM.render(
   <App />,

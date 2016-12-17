@@ -8,6 +8,7 @@ const Body = props => (
             <div className="col-md-8 col-md-offset-2">
                 <div className="embed-responsive embed-responsive-16by9">
                     <iframe className="embed-responsive-item"></iframe>
+
                 </div>
             </div>
         </div>

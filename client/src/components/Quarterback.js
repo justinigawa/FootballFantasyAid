@@ -9,6 +9,7 @@ var arr = [];
 var Quarterback = React.createClass({
     getInitialState: function() {
         return { name: "" }
+
     },
 
     handleChange: function(event) {

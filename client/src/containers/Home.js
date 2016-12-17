@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 import NavBar from '../components/NavBar'
-import Body from '../components/Body'
+import Schedule from '../components/Schedule'
 import Footer from '../components/Footer'
 import Schedule from '../components/Schedule'
 

@@ -4,7 +4,7 @@ var axios = require('axios')
 var Child = React.createClass({
   changeName: function(e) {
     var name = e.target.value;
-    this.props.changeName(name);
+    this.props.onChange(name);
   },
 
   render: function () {
