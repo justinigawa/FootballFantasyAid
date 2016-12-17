@@ -1,11 +1,11 @@
 import React, {Component} from "react"
 import {Link} from "react-router"
 import axios from 'axios'
-import Child from './ChildTE.js'
+import ChildRight from './ChildWRRight.js'
 
 var arr = [];
 
-var TightEnd = React.createClass({
+var WideRecieverRight = React.createClass({
     getInitialState: function() {
         return {name: 'Tom Brady'}
     },
@@ -43,12 +43,12 @@ var TightEnd = React.createClass({
                             <div className="section1">
                                 <div className="panel panel-default">
                                     <div className="panel-heading">
-                                        <h3 className="panel-title text-center">Tight End 1</h3>
+                                        <h3 className="panel-title text-center">Wide Reciever 2</h3>
                                     </div>
                                     <div className="panel-body text-center">
                                         <form>
                                             <div className="form-group">
-                                                <Child onChange={this.changeName}/>
+                                                <ChildRight onChange={this.changeName}/>
                                                 <button onClick={this.handleSubmit}>Submit</button>
                                             </div>
                                         </form>
@@ -56,7 +56,7 @@ var TightEnd = React.createClass({
                                 </div>
                                 <div className="panel panel-default">
                                     <div className="panel-heading">
-                                        <h3 className="panel-title text-center">Tight End 1</h3>
+                                        <h3 className="panel-title text-center">Wide Reciever 2</h3>
                                     </div>
                                     <div className="panel-body text-center">
                                         <h1>{this.state.trueName}</h1>
@@ -65,23 +65,23 @@ var TightEnd = React.createClass({
                                         <table className="table table-bordered table-hovered">
                                             <tr>
                                                 <td>Opponent</td>
-                                                <td className="te1NextOpponent"></td>
+                                                <td className="wr1NextOpponent"></td>
                                             </tr>
                                             <tr>
-                                                <td>Receiving Yards</td>
-                                                <td className="te1ReceivingYards"></td>
+                                                <td>Receptions</td>
+                                                <td className="wr1Receptions"></td>
                                             </tr>
                                             <tr>
-                                                <td>Rush Yards</td>
-                                                <td className="te1RushYards"></td>
+                                                <td>Pass Yards</td>
+                                                <td className="wr1PassYards"></td>
                                             </tr>
                                             <tr>
                                                 <td>Touchdowns</td>
-                                                <td className="te1TD"></td>
+                                                <td className="wr1TDs"></td>
                                             </tr>
                                             <tr>
                                                 <td>Fantasy Points</td>
-                                                <td className="te1FantasyPoints"></td>
+                                                <td className="wr1FantasyPoints"></td>
                                             </tr>
                                         </table>
                                     </div>
@@ -96,4 +96,4 @@ var TightEnd = React.createClass({
     }
 });
 
-export default TightEnd
+export default WideRecieverRight

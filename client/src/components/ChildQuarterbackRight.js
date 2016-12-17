@@ -1,7 +1,7 @@
 var React = require('react');
 var axios = require('axios')
 
-var Child = React.createClass({
+var ChildRight = React.createClass({
   changeName: function(e) {
     var name = e.target.value;
     this.props.onChange(name);
@@ -16,4 +16,4 @@ var Child = React.createClass({
   }
 });
 
-module.exports = Child;
+module.exports = ChildRight;
