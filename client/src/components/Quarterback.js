@@ -12,7 +12,7 @@ var Quarterback = React.createClass({
     },
 
     changeName: function(newName) {
-        this.setState({name: newName});
+        this.setState({name: newName})
     },
 
     handleSubmit: function(event) {
@@ -20,7 +20,6 @@ var Quarterback = React.createClass({
         this.getThatShit(this.state.name)
         this.setState({search: ""})
         this.setState({trueName: this.state.name})
-        console.log(this.getThatShit(this.state.name))
     },
 
     getThatShit: function(query) {
@@ -52,6 +51,7 @@ var Quarterback = React.createClass({
                                     <form>
                                         <div className="form-group">
                                             <Child onChange={this.changeName}/>
+                                            <button onClick={this.handleSubmit}>Submit</button>
                                             <Sibling name={this.state.trueName} />
                                         </div>
                                     </form>
